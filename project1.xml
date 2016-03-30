@@ -1,1 +1,9 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_if" id="52" inline="false" x="147" y="43">
+    <value name="IF0">
+      <block type="sensor_button" id="96">
+        <field name="OBJECT">LEFT</field>
+      </block>
+    </value>
+  </block>
+</xml>
