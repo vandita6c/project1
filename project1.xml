@@ -1,9 +1,39 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_if" id="52" inline="false" x="147" y="43">
-    <value name="IF0">
-      <block type="sensor_button" id="96">
-        <field name="OBJECT">LEFT</field>
+  <block type="movement_forward" id="12" x="178" y="22">
+    <next>
+      <block type="movement_reverse" id="32">
+        <next>
+          <block type="movement_left" id="22">
+            <next>
+              <block type="movement_reverse" id="71">
+                <next>
+                  <block type="movement_right" id="61">
+                    <next>
+                      <block type="movement_forward" id="82">
+                        <next>
+                          <block type="movement_left" id="92">
+                            <next>
+                              <block type="movement_left" id="103">
+                                <next>
+                                  <block type="movement_right" id="113">
+                                    <next>
+                                      <block type="movement_reverse" id="123"></block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
       </block>
-    </value>
+    </next>
   </block>
 </xml>
